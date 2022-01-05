@@ -13,12 +13,8 @@
 		}
 		if($length==2){
 			$return =array(
-				$letters[0].$letters[1].$letters[2],
-				$letters[0].$letters[2].$letters[1],
-				$letters[1].$letters[0].$letters[2],
-				$letters[1].$letters[2].$letters[0],
-				$letters[2].$letters[0].$letters[1],
-				$letters[2].$letters[1].$letters[0],
+				$letters[0].$letters[1],
+				$letters[1].$letters[0]
 			);
 		}
 		return $return;
